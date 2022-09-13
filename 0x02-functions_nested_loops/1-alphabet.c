@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_alphabet - this is the function to print alphabets
@@ -14,5 +15,4 @@ void print_alphabet(void)
 		letter++;
 	}
 	_purchar('\n');
-	return (0);
 }
