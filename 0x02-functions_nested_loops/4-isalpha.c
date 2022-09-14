@@ -4,13 +4,13 @@
  * Return: return 1 if its true
  * @c: is an ASCII character
  */
- int _isalpha(int c)
+int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
-	else if ( c >= 'A' && c <= 'Z')
+	else if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
